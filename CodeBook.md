@@ -22,26 +22,64 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 These signals were used to estimate variables of the feature vector for each pattern:
 'XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
-timeBodyAccelerationXYZ:                   time domain body acceleration signals
-timeGravityAccelerationXYZ:                time domain gravity acceleration signals
-timeBodyAccelerationJerkXYZ:               time domain body acceleration jerk signals
-timeBodyGyroXYZ:                           time domain body gyroscopic signals
-timeBodyGyroJerkXYZ:                       time domail body gyroscopic jerk signals
-timeBodyAccelerationMagnitude:             magnitude of time domain body acceleration signals
-timeGravityAccelerationMagnitude:          magnitude of time domain gravity acceleration signals
-timeBodyAccelerationJerkMagnitude:         magnitude of time domain body acceleration jerk signals
-timeBodyGyroMagnitude:                     magnitude of time domain body gyroscopic signals
-timeBodyGyroJerkMagnitude:                 magnitude of time domain body gyroscopic jerk signals
-frequencyBodyAccelerationXYZ:              frequency domain body acceleration signals
-frequencyBodyAccelerationJerkXYZ:          frequency domain body acceleration jerk signals
-frequencyBodyGyroXYZ:                      frequency domain body gyroscopic signals
-frequencyBodyAccelerationMagnitude:        magnitude of frequency domain body acceleration signals
-frequencyBodyAccelerationJerkMagnitude:    magnitude of frequency domain body acceleration jerk signals
-frequencyBodyGyroMagnitude:                magnitude of frequency domain body gyroscopic signals
-frequencyBodyGyroJerkMagnitude:            magnitude of frequency domain body gyroscopic jerk signals
+timeBodyAccelerationXYZ:                   
+time domain body acceleration signals
+
+timeGravityAccelerationXYZ:                
+time domain gravity acceleration signals
+
+timeBodyAccelerationJerkXYZ:               
+time domain body acceleration jerk signals
+
+timeBodyGyroXYZ:                           
+time domain body gyroscopic signals
+
+timeBodyGyroJerkXYZ:                       
+time domail body gyroscopic jerk signals
+
+timeBodyAccelerationMagnitude:             
+magnitude of time domain body acceleration signals
+
+timeGravityAccelerationMagnitude:          
+magnitude of time domain gravity acceleration signals
+
+timeBodyAccelerationJerkMagnitude:         
+magnitude of time domain body acceleration jerk signals
+
+timeBodyGyroMagnitude:                     
+magnitude of time domain body gyroscopic signals
+
+timeBodyGyroJerkMagnitude:                 
+magnitude of time domain body gyroscopic jerk signals
+
+frequencyBodyAccelerationXYZ:              
+frequency domain body acceleration signals
+
+frequencyBodyAccelerationJerkXYZ:          
+frequency domain body acceleration jerk signals
+
+frequencyBodyGyroXYZ:                      
+frequency domain body gyroscopic signals
+
+frequencyBodyAccelerationMagnitude:        
+magnitude of frequency domain body acceleration signals
+
+frequencyBodyAccelerationJerkMagnitude:    
+magnitude of frequency domain body acceleration jerk signals
+
+frequencyBodyGyroMagnitude:                
+magnitude of frequency domain body gyroscopic signals
+
+frequencyBodyGyroJerkMagnitude:            
+magnitude of frequency domain body gyroscopic jerk signals
 
 The set of variables that were estimated from these signals are: 
 
-mean(): Mean value
-std(): Standard deviation
-meanFreq(): Weighted average of the frequency components to obtain a mean frequency
+mean(): 
+Mean value
+
+std(): 
+Standard deviation
+
+meanFreq(): 
+Weighted average of the frequency components to obtain a mean frequency
