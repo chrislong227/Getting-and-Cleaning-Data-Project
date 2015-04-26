@@ -65,3 +65,6 @@ cleanedData = mergeData %>%
   group_by(subject, activity) %>%
   summarise_each(funs(mean)) %>%
   print(cleanedData)
+
+## Create the new data file
+write.table(cleanedData, file = "HumanRecognitionUsingSmartphones.txt", row.names = FALSE)
